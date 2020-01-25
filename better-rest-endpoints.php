@@ -141,4 +141,4 @@ class F1_Better_Rest_Endpoints {
 function better_rest_endpoints() {
 	return F1_Better_Rest_Endpoints::instance();
 }
-add_action( 'plugins_loaded', 'better_rest_endpoints', 99 );
+add_action( 'plugins_loaded', 'better_rest_endpoints', 99 );//
